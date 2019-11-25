@@ -41,7 +41,7 @@ git clone -b 本地分支名 远程分支名
 
 ![upload1](./upload1.png)
 ![upload2](./upload2.png)
-![upload3](./upload3.png)]
+![upload3](./upload3.png)
 
 ### 我会用 git ！
 
