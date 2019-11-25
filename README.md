@@ -6,10 +6,27 @@ HELP! Final exam is coming in 3 days! I haven't read a single word till now.
 
 ## 用法
 
+### 我不会用 git 咋办呀
+
+如何快速下载：
+
+1. 找到网站中的 `Branch: master` 按钮，点击，可以看到所有的课程选项
+2. 选择想要查看的课程，其中包含资料
+
+![branch](./branch_choose.png)
+![download1](./download1.png)
+![download2](./download2.png)
+
+### 我很牛逼，会用 git
+
 为了避免一次性 clone ，每一个课程对应一个 remote branch 。 master 分支为介绍分支，不保存任何内容。
+
+如何下载一个课程所有资料到本地：
 
 ```
 git clone -b 本地分支名 远程分支名
 ```
+
+如果没有 git ，你需要单独下载每一个资料。
 
 其中远程分支名对应课程名，可以在 github 上查看现有的课程名。
